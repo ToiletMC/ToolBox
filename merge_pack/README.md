@@ -1,10 +1,13 @@
-# ResourcePackMerger
+# 简单资源包合并
 
-1. 两个压缩包合并。
-2. assets\minecraft\models\item 中的 json 需要合并。
-3. 上面合并中，overrides 中的项目需要从小到大排序合并。
-4. assets\minecraft\atlases 中的 json 需要合并。
+### 简介
+主要是将两个压缩包合并，但提供额外功能：
+- 合并 assets\minecraft\models\item 中的 json，按照 overrides 中的谓词从小到大排序合并。
+- 合并 assets\minecraft\atlases 中的 json。
 
-extra 目录中的文件需要复制到合并后的资源包中。
+### 使用方法：
+1. 将需要合并的资源包放入 original 目录。
+2. 将其他额外文件放入 extra 目录，会最后添加到资源包中。
+3. 启动 Python。
 
-original 目录中是要合并的资源包。
+
