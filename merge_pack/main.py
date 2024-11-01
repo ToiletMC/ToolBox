@@ -8,8 +8,10 @@ import zipfile
 def main():
     # 获取资源包文件名
     pack_names = list((Path(__file__).parent / "original").iterdir())
-    print("要处理的资源包", pack_names)
-    if input("输入y继续").lower() != "y":
+    print("需要处理的资源包：")
+    for number, pack_name in enumerate(pack_names, start=1):
+        print(f"  【{number}】{pack_name.name}")
+    if input("输入 y 继续：").lower() != "y":
         return
     # 解压缩资源包到临时目录
     with tempfile.TemporaryDirectory() as tmp_dir:
