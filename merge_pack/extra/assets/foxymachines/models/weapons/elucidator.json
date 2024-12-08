@@ -1,0 +1,7 @@
+{
+  "parent": "foxymachines:weapons/elucidatorver2",
+  "textures": {
+    "2": "foxymachines:weapons/elucidator",
+    "particle": "foxymachines:weapons/elucidator"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "bump:magical_weapons/asuna_sword",
+  "textures": {
+    "mesh_palette": "bump:magical_weapons/random_sword",
+    "particle": "bump:magical_weapons/random_sword"
+  }
+}
