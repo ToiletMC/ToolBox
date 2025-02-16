@@ -13,6 +13,11 @@
 2. 将其他额外文件放入 extra 目录，会最后添加到资源包中。
 3. Python，启动！
 
+### 需要的额外操作：
+
+1. 删掉原始粘液科技完整包的这个文件夹：assets/infinityexpansion/textures/materials/materials2
+2. 把 nbt.CustomModelData 全部替换成 components.custom_model_data
+
 ### TO-DO
 
 - [ ] 未来可能需要合并 assets\minecraft\sounds.json，因为粘液科技现在增加了一个空的声音文件。
